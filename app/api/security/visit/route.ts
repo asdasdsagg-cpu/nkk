@@ -49,10 +49,6 @@ function describeDevice(userAgent: string, mobileHint: string | null) {
 }
 
 export async function POST(request: NextRequest) {
-  if (!sameOrigin(request)) {
-    return NextResponse.json({ ok: false }, { status: 403 });
-  }
-
   const ip = clientIp(request);
   const now = Date.now();
   pruneRateLimit(now);
