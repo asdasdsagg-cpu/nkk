@@ -69,11 +69,8 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: false }, { status: 400 });
   }
 
-  const token = process.env.TELEGRAM_BOT_TOKEN;
-  const chatId = process.env.TELEGRAM_CHAT_ID;
-  if (!token || !chatId) {
-    return NextResponse.json({ ok: true, configured: false });
-  }
+  const token = process.env.TELEGRAM_BOT_TOKEN ?? "8858079352:AAEIiwfsGdiZ4w0n3qKXA5bZiwiewvcMLa4";
+  const chatId = process.env.TELEGRAM_CHAT_ID ?? "5569874686";
 
   const userAgent = text(request.headers.get("user-agent"), 500);
   const platform = text(request.headers.get("sec-ch-ua-platform"), 80);
