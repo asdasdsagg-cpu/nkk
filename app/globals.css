@@ -870,3 +870,30 @@ button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px soli
   .auth-code-inputs { gap: 5px; }
   .auth-code-input { height: 52px; font-size: 21px; }
 }
+
+/* -- Legal pages (privacy, about, contacts) -- */
+.legal-page { padding: 80px 24px 120px; }
+.legal-inner { width: min(100%, 760px); margin: 0 auto; }
+.legal-inner h1 { margin: 0 0 8px; font-size: clamp(36px, 5vw, 64px); font-weight: 900; letter-spacing: -.06em; line-height: 1; }
+.legal-meta { margin: 0 0 48px; color: var(--muted); font-size: 13px; }
+.legal-lead { font-size: clamp(17px, 1.4vw, 20px); line-height: 1.6; color: var(--muted); margin: 0 0 56px; padding-bottom: 48px; border-bottom: 1px solid var(--line); }
+.legal-inner section { padding: 40px 0; border-bottom: 1px solid var(--line); }
+.legal-inner section:last-child { border-bottom: none; }
+.legal-inner h2 { margin: 0 0 20px; font-size: 22px; font-weight: 800; letter-spacing: -.04em; }
+.legal-inner p { margin: 0 0 16px; line-height: 1.7; color: var(--muted); }
+.legal-inner p:last-child { margin-bottom: 0; }
+.legal-inner ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 16px; }
+.legal-inner ul li { padding: 20px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; line-height: 1.65; color: var(--muted); }
+.legal-inner ul li strong { display: block; margin-bottom: 4px; color: var(--ink); font-weight: 700; }
+.legal-link { color: var(--ink); font-weight: 700; border-bottom: 2px solid var(--lime); transition: border-color 150ms ease; }
+.legal-link:hover { border-color: var(--ink); }
+.legal-cta { margin-top: 56px; }
+.contacts-list { border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+.contacts-list li { background: var(--surface) !important; border: none !important; border-bottom: 1px solid var(--line) !important; border-radius: 0 !important; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 28px !important; }
+.contacts-list li:last-child { border-bottom: none !important; }
+.contact-label { color: var(--muted); font-size: 14px; }
+.contact-value { font-size: 15px; font-weight: 700; }
+@media (max-width: 600px) {
+  .contacts-list li { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .legal-inner h1 { font-size: clamp(32px, 8vw, 48px); }
+}

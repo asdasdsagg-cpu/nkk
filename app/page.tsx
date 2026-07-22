@@ -243,9 +243,13 @@ export default function Home() {
           <a href="#features">Возможности</a>
           <a href="#how">Как работает</a>
           <a href="#trust">О данных</a>
+          <a href="/about">О проекте</a>
+          <a href="/privacy">Конфиденциальность</a>
+          <a href="/contacts">Контакты</a>
         </nav>
         <small>© 2026 · Информация предоставляется «как есть»</small>
       </footer>
+
     </main>
   );
 }
