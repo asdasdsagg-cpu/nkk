@@ -71,7 +71,7 @@ export default function PrivacyPage() {
             <h2>Контакты</h2>
             <p>
               По вопросам обработки данных:{" "}
-              <a href="mailto:info@azs-karta.click" className="legal-link">info@azs-karta.click</a>.{" "}
+              <a href="mailto:support@benzinmap.ru" className="legal-link">support@benzinmap.ru</a>.{" "}
               См. также <Link href="/contacts" className="legal-link">Контакты</Link>.
             </p>
           </section>

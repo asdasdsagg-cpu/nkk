@@ -35,15 +35,15 @@ export default function ContactsPage() {
             <ul className="contacts-list">
               <li>
                 <span className="contact-label">Почта</span>
-                <a href="mailto:info@azs-karta.click" className="legal-link contact-value">info@azs-karta.click</a>
+              <a href="mailto:support@benzinmap.ru" className="legal-link contact-value">support@benzinmap.ru</a>
               </li>
               <li>
                 <span className="contact-label">Чат поддержки в Telegram</span>
-                <a href="https://t.me/KartaBenzaSupport" target="_blank" rel="noreferrer" className="legal-link contact-value">@KartaBenzaSupport</a>
+                <a href="https://t.me/BenzinMapHelp" target="_blank" rel="noreferrer" className="legal-link contact-value">@BenzinMapHelp</a>
               </li>
               <li>
                 <span className="contact-label">Канал в Telegram</span>
-                <a href="https://t.me/azs-karta" target="_blank" rel="noreferrer" className="legal-link contact-value">@azs-karta</a>
+                <a href="https://t.me/benzin_map" target="_blank" rel="noreferrer" className="legal-link contact-value">@benzin_map</a>
               </li>
             </ul>
             <p style={{ marginTop: "32px" }}>

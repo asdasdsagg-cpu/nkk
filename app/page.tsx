@@ -57,7 +57,8 @@ export default function Home() {
         <nav id="site-nav" className={menuOpen ? "is-open" : ""} aria-label="Основная навигация">
           <a href="#features" onClick={() => setMenuOpen(false)}>Возможности</a>
           <a href="#how" onClick={() => setMenuOpen(false)}>Как работает</a>
-          <a href="#trust" onClick={() => setMenuOpen(false)}>О данных</a>
+          <a href="/about" onClick={() => setMenuOpen(false)}>О проекте</a>
+          <a href="/contacts" onClick={() => setMenuOpen(false)}>Контакты</a>
           <button className="nav-cta" type="button" onClick={openMap}>Открыть карту</button>
         </nav>
       </header>
@@ -247,7 +248,7 @@ export default function Home() {
           <a href="/privacy">Конфиденциальность</a>
           <a href="/contacts">Контакты</a>
         </nav>
-        <small>© 2026 · Информация предоставляется «как есть»</small>
+        <small>© 2026 · <a href="/privacy" style={{borderBottom:'1px solid var(--line)'}}>Политика конфиденциальности</a> · Информация предоставляется «как есть»</small>
       </footer>
 
     </main>
