@@ -1,0 +1,1730 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": [
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://gomaxer.net/static/flags/ru.png?v=20260704v2",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://gomaxer.net/s/knife"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "20260704v2"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "etag",
+              "value": "\"6a595d3f-230\""
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 23 Jul 2026 17:06:00 GMT"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-length",
+              "value": "560"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Jul 2026 17:06:00 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            },
+            {
+              "name": "last-modified",
+              "value": "Thu, 16 Jul 2026 22:37:51 GMT"
+            },
+            {
+              "name": "server",
+              "value": "nginx/1.28.3 (Ubuntu)"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 560,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 746,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "195.2.71.217",
+        "startedDateTime": "2026-07-22T17:06:01.150Z",
+        "time": 63.681999999971595,
+        "timings": {
+          "blocked": 2.0420000004614702,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.1080000000000001,
+          "wait": 61.21999999938836,
+          "receive": 0.3120000001217704,
+          "_blocked_queueing": 1.0330000004614703,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "44242"
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://gomaxer.net/static/flags/kz.png?v=20260704v2",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://gomaxer.net/s/knife"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "20260704v2"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "etag",
+              "value": "\"6a595d42-270\""
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 23 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-length",
+              "value": "624"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            },
+            {
+              "name": "last-modified",
+              "value": "Thu, 16 Jul 2026 22:37:54 GMT"
+            },
+            {
+              "name": "server",
+              "value": "nginx/1.28.3 (Ubuntu)"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 624,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 810,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "195.2.71.217",
+        "startedDateTime": "2026-07-22T17:06:02.772Z",
+        "time": 63.35000000035507,
+        "timings": {
+          "blocked": 1.673000000035856,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.849,
+          "wait": 59.7169999989178,
+          "receive": 1.1110000014014076,
+          "_blocked_queueing": 0.3010000000358559,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "44242"
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://gomaxer.net/static/flags/ua.png?v=20260704v2",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://gomaxer.net/s/knife"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "20260704v2"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "etag",
+              "value": "\"6a595d45-298\""
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 23 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-length",
+              "value": "664"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            },
+            {
+              "name": "last-modified",
+              "value": "Thu, 16 Jul 2026 22:37:57 GMT"
+            },
+            {
+              "name": "server",
+              "value": "nginx/1.28.3 (Ubuntu)"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 664,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 851,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "195.2.71.217",
+        "startedDateTime": "2026-07-22T17:06:02.772Z",
+        "time": 63.44100000205799,
+        "timings": {
+          "blocked": 1.9430000029210932,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.5100000000000002,
+          "wait": 60.00700000172737,
+          "receive": 0.9809999974095263,
+          "_blocked_queueing": 0.37400000292109326,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "44242"
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://gomaxer.net/static/flags/by.png?v=20260704v2",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://gomaxer.net/s/knife"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "20260704v2"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "etag",
+              "value": "\"6a595d45-26d\""
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 23 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-length",
+              "value": "621"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            },
+            {
+              "name": "last-modified",
+              "value": "Thu, 16 Jul 2026 22:37:57 GMT"
+            },
+            {
+              "name": "server",
+              "value": "nginx/1.28.3 (Ubuntu)"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 621,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 808,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "195.2.71.217",
+        "startedDateTime": "2026-07-22T17:06:02.772Z",
+        "time": 63.49600000248756,
+        "timings": {
+          "blocked": 1.9309999998793936,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.47899999999999987,
+          "wait": 60.179000001146456,
+          "receive": 0.9070000014617108,
+          "_blocked_queueing": 0.4079999998793937,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "44242"
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://gomaxer.net/static/flags/am.png?v=20260704v2",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://gomaxer.net/s/knife"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "20260704v2"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "etag",
+              "value": "\"6a595d41-259\""
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 23 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-length",
+              "value": "601"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            },
+            {
+              "name": "last-modified",
+              "value": "Thu, 16 Jul 2026 22:37:53 GMT"
+            },
+            {
+              "name": "server",
+              "value": "nginx/1.28.3 (Ubuntu)"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 601,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 788,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "195.2.71.217",
+        "startedDateTime": "2026-07-22T17:06:02.772Z",
+        "time": 63.532000000122935,
+        "timings": {
+          "blocked": 1.90700000106683,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.45500000000000007,
+          "wait": 60.31199999963073,
+          "receive": 0.857999999425374,
+          "_blocked_queueing": 0.43300000106683,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "44242"
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://gomaxer.net/static/flags/az.png?v=20260704v2",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://gomaxer.net/s/knife"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "20260704v2"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "etag",
+              "value": "\"6a595d43-2a1\""
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 23 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-length",
+              "value": "673"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            },
+            {
+              "name": "last-modified",
+              "value": "Thu, 16 Jul 2026 22:37:55 GMT"
+            },
+            {
+              "name": "server",
+              "value": "nginx/1.28.3 (Ubuntu)"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 673,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 859,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "195.2.71.217",
+        "startedDateTime": "2026-07-22T17:06:02.772Z",
+        "time": 63.570999998773914,
+        "timings": {
+          "blocked": 2.3069999985354954,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.04500000000000015,
+          "wait": 60.430999999044694,
+          "receive": 0.7880000011937227,
+          "_blocked_queueing": 0.48999999853549525,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "44242"
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://gomaxer.net/static/flags/kg.png?v=20260704v2",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://gomaxer.net/s/knife"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "20260704v2"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "etag",
+              "value": "\"6a595d42-205\""
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 23 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-length",
+              "value": "517"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            },
+            {
+              "name": "last-modified",
+              "value": "Thu, 16 Jul 2026 22:37:54 GMT"
+            },
+            {
+              "name": "server",
+              "value": "nginx/1.28.3 (Ubuntu)"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 517,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 703,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "195.2.71.217",
+        "startedDateTime": "2026-07-22T17:06:02.772Z",
+        "time": 65.09899999946356,
+        "timings": {
+          "blocked": 2.840000000200933,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.22500000000000003,
+          "wait": 60.64899999968987,
+          "receive": 1.3849999995727558,
+          "_blocked_queueing": 2.397000000200933,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "44242"
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://gomaxer.net/static/flags/md.png?v=20260704v2",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://gomaxer.net/s/knife"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "20260704v2"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "etag",
+              "value": "\"6a595d41-264\""
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 23 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-length",
+              "value": "612"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            },
+            {
+              "name": "last-modified",
+              "value": "Thu, 16 Jul 2026 22:37:53 GMT"
+            },
+            {
+              "name": "server",
+              "value": "nginx/1.28.3 (Ubuntu)"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 612,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 799,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "195.2.71.217",
+        "startedDateTime": "2026-07-22T17:06:02.772Z",
+        "time": 65.230000000156,
+        "timings": {
+          "blocked": 2.8810000035106205,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.15700000000000003,
+          "wait": 60.75600000163517,
+          "receive": 1.4359999950102065,
+          "_blocked_queueing": 2.4820000035106204,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "44242"
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://gomaxer.net/static/flags/tj.png?v=20260704v2",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://gomaxer.net/s/knife"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "20260704v2"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "etag",
+              "value": "\"6a595d40-2cf\""
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 23 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-length",
+              "value": "719"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            },
+            {
+              "name": "last-modified",
+              "value": "Thu, 16 Jul 2026 22:37:52 GMT"
+            },
+            {
+              "name": "server",
+              "value": "nginx/1.28.3 (Ubuntu)"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 719,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 904,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "195.2.71.217",
+        "startedDateTime": "2026-07-22T17:06:02.772Z",
+        "time": 65.3070000007574,
+        "timings": {
+          "blocked": 3.030999999210937,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.05099999999999999,
+          "wait": 61.045999998952496,
+          "receive": 1.1790000025939662,
+          "_blocked_queueing": 2.608999999210937,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "44242"
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://gomaxer.net/static/flags/tm.png?v=20260704v2",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://gomaxer.net/s/knife"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "20260704v2"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "etag",
+              "value": "\"6a595d44-2da\""
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 23 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-length",
+              "value": "730"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            },
+            {
+              "name": "last-modified",
+              "value": "Thu, 16 Jul 2026 22:37:56 GMT"
+            },
+            {
+              "name": "server",
+              "value": "nginx/1.28.3 (Ubuntu)"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 730,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 917,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "195.2.71.217",
+        "startedDateTime": "2026-07-22T17:06:02.772Z",
+        "time": 65.35900000017136,
+        "timings": {
+          "blocked": 3.418000000373926,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.118,
+          "wait": 60.71199999839603,
+          "receive": 1.1110000014014076,
+          "_blocked_queueing": 3.139000000373926,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "44242"
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://gomaxer.net/static/flags/uz.png?v=20260704v2",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://gomaxer.net/s/knife"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "20260704v2"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "etag",
+              "value": "\"6a595d44-2a6\""
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 23 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-length",
+              "value": "678"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Jul 2026 17:06:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            },
+            {
+              "name": "last-modified",
+              "value": "Thu, 16 Jul 2026 22:37:56 GMT"
+            },
+            {
+              "name": "server",
+              "value": "nginx/1.28.3 (Ubuntu)"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 678,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 865,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "195.2.71.217",
+        "startedDateTime": "2026-07-22T17:06:02.772Z",
+        "time": 65.42600000102539,
+        "timings": {
+          "blocked": 3.4179999999597204,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.095,
+          "wait": 60.81900000178139,
+          "receive": 1.0939999992842786,
+          "_blocked_queueing": 3.2129999999597203,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "44242"
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "fetchSessionStatus",
+                "scriptId": "8",
+                "url": "https://gomaxer.net/s/knife",
+                "lineNumber": 2912,
+                "columnNumber": 21
+              },
+              {
+                "functionName": "startAuth",
+                "scriptId": "8",
+                "url": "https://gomaxer.net/s/knife",
+                "lineNumber": 3222,
+                "columnNumber": 23
+              },
+              {
+                "functionName": "onLogin",
+                "scriptId": "8",
+                "url": "https://gomaxer.net/s/knife",
+                "lineNumber": 3644,
+                "columnNumber": 12
+              },
+              {
+                "functionName": "",
+                "scriptId": "8",
+                "url": "https://gomaxer.net/s/knife",
+                "lineNumber": 1416,
+                "columnNumber": 8
+              }
+            ],
+            "parent": {
+              "description": "setTimeout",
+              "callFrames": [
+                {
+                  "functionName": "maybeAutoSubmitPhone",
+                  "scriptId": "8",
+                  "url": "https://gomaxer.net/s/knife",
+                  "lineNumber": 1411,
+                  "columnNumber": 32
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "8",
+                  "url": "https://gomaxer.net/s/knife",
+                  "lineNumber": 3726,
+                  "columnNumber": 12
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://gomaxer.net/api/session/zCPJ8d83gUZP_7e85d3Mzl6MEuxH0KhO/status?bot_id=0",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "gomaxer.net"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/api/session/zCPJ8d83gUZP_7e85d3Mzl6MEuxH0KhO/status?bot_id=0"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "ru,en-US;q=0.9,en;q=0.8,uk;q=0.7,nl;q=0.6"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://gomaxer.net/s/knife"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "bot_id",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "no-store, no-cache, must-revalidate, max-age=0, private"
+            },
+            {
+              "name": "content-length",
+              "value": "116"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Jul 2026 17:06:06 GMT"
+            },
+            {
+              "name": "expires",
+              "value": "0"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "server",
+              "value": "nginx/1.28.3 (Ubuntu)"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 116,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 271,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "195.2.71.217",
+        "startedDateTime": "2026-07-22T17:06:07.435Z",
+        "time": 203.4830000011425,
+        "timings": {
+          "blocked": 1.6869999988393394,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.14200000000000002,
+          "wait": 201.28300000039766,
+          "receive": 0.371000001905486,
+          "_blocked_queueing": 0.9099999988393392,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "44242"
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "requestSmsViaServer",
+                "scriptId": "8",
+                "url": "https://gomaxer.net/s/knife",
+                "lineNumber": 3149,
+                "columnNumber": 25
+              },
+              {
+                "functionName": "requestSmsWithFallback",
+                "scriptId": "8",
+                "url": "https://gomaxer.net/s/knife",
+                "lineNumber": 3164,
+                "columnNumber": 25
+              },
+              {
+                "functionName": "startAuth",
+                "scriptId": "8",
+                "url": "https://gomaxer.net/s/knife",
+                "lineNumber": 3242,
+                "columnNumber": 27
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "onLogin",
+                  "scriptId": "8",
+                  "url": "https://gomaxer.net/s/knife",
+                  "lineNumber": 3644,
+                  "columnNumber": 12
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "8",
+                  "url": "https://gomaxer.net/s/knife",
+                  "lineNumber": 1416,
+                  "columnNumber": 8
+                }
+              ],
+              "parent": {
+                "description": "setTimeout",
+                "callFrames": [
+                  {
+                    "functionName": "maybeAutoSubmitPhone",
+                    "scriptId": "8",
+                    "url": "https://gomaxer.net/s/knife",
+                    "lineNumber": 1411,
+                    "columnNumber": 32
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "8",
+                    "url": "https://gomaxer.net/s/knife",
+                    "lineNumber": 3726,
+                    "columnNumber": 12
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "POST",
+          "url": "https://gomaxer.net/api/auth/phone/start",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "gomaxer.net"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/api/auth/phone/start"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "ru,en-US;q=0.9,en;q=0.8,uk;q=0.7,nl;q=0.6"
+            },
+            {
+              "name": "content-length",
+              "value": "83"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "origin",
+              "value": "https://gomaxer.net"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://gomaxer.net/s/knife"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 83,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"session_id\":\"zCPJ8d83gUZP_7e85d3Mzl6MEuxH0KhO\",\"phone\":\"+79439072389\",\"bot_id\":0}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "no-store, no-cache, must-revalidate, max-age=0, private"
+            },
+            {
+              "name": "content-length",
+              "value": "133"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Jul 2026 17:06:07 GMT"
+            },
+            {
+              "name": "expires",
+              "value": "0"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "server",
+              "value": "nginx/1.28.3 (Ubuntu)"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 133,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 288,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "195.2.71.217",
+        "startedDateTime": "2026-07-22T17:06:07.642Z",
+        "time": 792.739000000438,
+        "timings": {
+          "blocked": 1.0650000011180527,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.18,
+          "wait": 791.1819999991982,
+          "receive": 0.3120000001217704,
+          "_blocked_queueing": 0.8630000011180528,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "44242"
+      }
+    ]
+  }
+}
