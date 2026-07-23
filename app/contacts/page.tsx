@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Контакты — Karta Benza",
+  title: "Контакты — Топливо рядом",
   description: "Пишите нам об ошибках, предложениях и вопросах по сервису — мы читаем каждое сообщение.",
 };
 

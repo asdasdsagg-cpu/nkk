@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Политика конфиденциальности — Karta Benza",
-  description: "Политика описывает, какие данные обрабатывает сервис «Karta Benza» и с какой целью.",
+  title: "Политика конфиденциальности — Топливо рядом",
+  description: "Политика описывает, какие данные обрабатывает сервис «Топливо рядом» и с какой целью.",
 };
 
 export default function PrivacyPage() {
@@ -28,7 +28,7 @@ export default function PrivacyPage() {
           <p className="legal-meta">Дата обновления: 17.07.2026</p>
 
           <p className="legal-lead">
-            Политика описывает, какие данные обрабатывает сервис «Karta Benza» и с какой целью.
+            Политика описывает, какие данные обрабатывает сервис «Топливо рядом» и с какой целью.
           </p>
 
           <section>
