@@ -76,7 +76,6 @@ export default function Home() {
                 Найти топливо рядом <span aria-hidden="true">↗</span>
               </button>
             </div>
-            </div>
           </div>
 
           <div className="map-stage" aria-label="Демонстрация карты заправок">
