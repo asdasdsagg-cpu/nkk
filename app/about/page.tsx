@@ -24,7 +24,7 @@ export default function AboutPage() {
       <div className="legal-page">
         <div className="legal-inner">
           <p className="kicker">Информация</p>
-          <h1>О проекте «Karta Benza»</h1>
+          <h1>О проекте «Топливо рядом»</h1>
 
           <p className="legal-lead">
             «Karta Benza» — бесплатный сервис, который показывает, где сейчас есть топливо на АЗС: наличие бензина и дизеля, очереди и свежесть данных. Цель — помочь водителям не тратить время на поиск заправки вслепую.
@@ -65,7 +65,6 @@ export default function AboutPage() {
 
       <footer>
         <Link className="brand" href="/"><span className="brand-dot" aria-hidden="true" />Топливо рядом</Link>
-        <p>Независимый демонстрационный лендинг.<br />Не является АЗС и не продаёт топливо.</p>
         <nav aria-label="Ссылки в подвале">
           <Link href="/about">О проекте</Link>
           <Link href="/privacy">Политика конфиденциальности</Link>

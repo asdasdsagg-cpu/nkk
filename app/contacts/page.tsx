@@ -56,7 +56,6 @@ export default function ContactsPage() {
 
       <footer>
         <Link className="brand" href="/"><span className="brand-dot" aria-hidden="true" />Топливо рядом</Link>
-        <p>Независимый демонстрационный лендинг.<br />Не является АЗС и не продаёт топливо.</p>
         <nav aria-label="Ссылки в подвале">
           <Link href="/about">О проекте</Link>
           <Link href="/privacy">Политика конфиденциальности</Link>

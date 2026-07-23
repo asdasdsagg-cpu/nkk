@@ -75,7 +75,7 @@ export default function Home() {
               <button className="primary-button" type="button" onClick={openMap}>
                 Найти топливо рядом <span aria-hidden="true">↗</span>
               </button>
-              <span>Без регистрации<br />и банковских данных</span>
+            </div>
             </div>
           </div>
 
@@ -239,7 +239,6 @@ export default function Home() {
 
       <footer>
         <a className="brand" href="#top"><span className="brand-dot" aria-hidden="true" />Топливо рядом</a>
-        <p>Независимый демонстрационный лендинг.<br />Не является АЗС и не продаёт топливо.</p>
         <nav aria-label="Ссылки в подвале">
           <a href="#features">Возможности</a>
           <a href="#how">Как работает</a>

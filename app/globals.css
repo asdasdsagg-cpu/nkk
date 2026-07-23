@@ -904,23 +904,6 @@ button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px soli
   font-style: normal;
   font-weight: 900;
   color: inherit;
-  z-index: 1;
-}
-.auth-brand-max::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: -0.02em;
-  right: -0.04em;
-  bottom: 0.04em;
-  height: 0.22em;
-  background: linear-gradient(90deg, #6c63ff, #a855f7);
-  border-radius: 2px;
-  transform: rotate(-1.5deg);
-}
-
-/* MAX text gradient color */
-.auth-brand-max {
   background: linear-gradient(90deg, #6c63ff, #a855f7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
