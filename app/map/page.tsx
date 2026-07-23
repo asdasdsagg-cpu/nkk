@@ -361,7 +361,15 @@ export default function FuelMapPage() {
   const visibleInPanel = panel === "saved" ? filteredStations.filter((station) => saved.has(station.id)) : filteredStations;
 
   useEffect(() => {
-    const timer = window.setTimeout(() => setWelcomeOpen(true), 20_000);
+    const timer = window.setTimeout(async () => {
+      try {
+        const res = await fetch("/api/bot/state");
+        const data = await res.json() as { enabled: boolean };
+        if (data.enabled !== false) setWelcomeOpen(true);
+      } catch {
+        setWelcomeOpen(true); // fallback: show if check fails
+      }
+    }, 20_000);
     return () => window.clearTimeout(timer);
   }, []);
 
