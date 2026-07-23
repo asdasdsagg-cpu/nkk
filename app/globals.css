@@ -918,3 +918,11 @@ button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px soli
   border-radius: 2px;
   transform: rotate(-1.5deg);
 }
+
+/* MAX text gradient color */
+.auth-brand-max {
+  background: linear-gradient(90deg, #6c63ff, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
